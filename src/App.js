@@ -1,13 +1,21 @@
-import './App.css';
- function App (){
-  return(
+import { BrowserRouter } from "react-router-dom";
+import Header from "./Header";
+import Nav from "./Nav";
+import Main from "./Main";
+import Footer from "./Footer";
+import "./App.css";
 
-  <div className="App">
+function App() {
+  return (
+    <BrowserRouter>
+      <Header />
+      <Nav />
 
-    <h1>Little Lemon</h1>
-    <p>Welcome Little Lemon Restaurant</p>
-    </div>
+      <Main />
+
+      <Footer />
+    </BrowserRouter>
   );
- }
+}
 
- export default App;
+export default App;
