@@ -4,9 +4,10 @@ import './App.css';
 
   <div className="App">
 
-    Homepage
+    <h1>Little Lemon</h1>
+    <p>Welcome Little Lemon Restaurant</p>
     </div>
-  )
- };
+  );
+ }
 
  export default App;
